@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Single Listing</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        html,
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        #container {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        #topDiv {
+            height: 50px;
+            background-color: #F79F1F;
+            color: #fff;
+            padding: 5px;
+            font-size: 30px;
+            box-sizing: border-box;
+            font-weight: bold;
+        }
+
+        #bottomDiv {
+            height: 50px;
+            background-color: #F79F1F;
+            padding: 2px;
+            box-sizing: border-box;
+            font-family: inherit;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+        }
+
+        #bottomDiv input {
+            display: inline-block;
+    width: 60%;
+    background-color: #fff;
+    border: none;
+    font-size: 20px;
+    margin: 6px;
+    /* height: 100%; */
+    height: 38px;
+    vertical-align: top;
+    box-sizing: border-box;
+        }
+
+        #bottomDiv button {
+            width: 30%;
+            display: inline-block;
+            height: 100%;
+        }
+
+        #messages {
+            height: calc(100vh - 81px);
+            display: block;
+            background-color: #222;
+        }
+
+        .right {
+            text-align: right;
+            padding: 5px 10px;
+            display: block;
+        }
+
+        .left {
+            padding: 5px 10px;
+        }
+
+        .left-msg {
+            width: auto;
+            display: inline-block;
+            background-color: red;
+            color: #fff;
+            padding: 7px;
+            font-size: 20px;
+        }
+
+        .right-message {
+            padding: 7px;
+            width: auto;
+            display: inline-block;
+            background-color: blue;
+            color: #fff;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="topDiv">
+            Example Org.
+        </div>
+        <div id="messages">
+            <div class="left">
+                <div class="left-msg">Message one</div>
+            </div>
+            <div class="right">
+                <div class="right-message">Message one</div>
+            </div>
+            <div class="left">
+                <div class="left-msg">Message two</div>
+            </div>
+            <div class="right">
+                <div class="right-message">Message two</div>
+            </div>
+            <div class="left">
+                <div class="left-msg">Message three</div>
+            </div>
+            <div class="left">
+                <div class="left-msg">Message four</div>
+            </div>
+            <div class="right">
+                <div class="right-message">Message three</div>
+            </div>
+            <div class="right">
+                <div class="right-message">Message four</div>
+            </div>
+        </div>
+        <div id="bottomDiv">
+            <input type="text" id="inputForm">
+            <i class="fas fa-paper-plane"></i>
+        </div>
+    </div>
+</body>
+
+</html>

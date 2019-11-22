@@ -1,6 +1,7 @@
 html,body {
     padding: 0;
     margin:0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 * {
@@ -41,5 +42,55 @@ html,body {
     max-width: 300px;
     font-size: 15px;
     padding: 7px 10px;
+    border-radius: 5px;
     margin-bottom: 10px;
+}
+#topListTitle {
+    box-sizing: border-box;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #F79F1F;
+    font-family: inherit;
+}
+
+#FourLogo {
+    text-align:center;
+    font-size: 30px;
+    padding: 30px 0;
+    color: #F79F1F;
+
+    margin: 0;
+}
+.fakeBtnLink {
+    width: 100%;
+    max-width: 300px;
+    box-sizing:border-box;
+    text-decoration:none;
+    background-color: #F79F1F;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: #fff !important;
+    font-weight:bold;
+    color: inherit;
+    font-family: inherit;
+    text-align: center;
+    display:block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+ul.listOrgs {
+    margin:0;
+    padding:0;
+}
+ul.listOrgs li {
+    list-style-type: none;
+}
+ul.listOrgs li.OrgLi {
+    border-bottom: 1px solid #333;
+    box-sizing:border-box;
+    padding: 10px;
+    width: 100%;
+    font-family: inherit;
 }
